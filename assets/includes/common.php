@@ -1,5 +1,5 @@
 <?php 
-	$conn = mysqli_connect('localhost', 'id11132335_gbpec', 'Aksh@t009*','id11132335_gbpecevent');
+	$conn = mysqli_connect('localhost', 'username', 'password','db_name');
 	if (!$conn) {
     echo ("Connection failed: " . mysqli_connect_error());
     }else{
